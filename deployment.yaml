@@ -20,7 +20,7 @@ spec:
   selector:
     matchLabels:
       app: flask-test-app
-  replicas: 6
+  replicas: 8
   template:
     metadata:
       labels:
